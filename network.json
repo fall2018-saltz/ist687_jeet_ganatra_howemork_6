@@ -33,6 +33,16 @@
             ],
             "source": "clean_data.csv",
             "target": "mergingDataframe.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergingDataframe",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergingDataframe.R",
+            "target": "mergingDataframe.csv"
         }
     ],
     "nodes": [
@@ -58,6 +68,6 @@
             "name": "mergingDataframe.csv"
         }
     ],
-    "updated_at": "2018-10-04 16:13:19",
+    "updated_at": "2018-10-04 16:14:06",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
