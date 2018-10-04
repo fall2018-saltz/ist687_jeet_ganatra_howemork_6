@@ -6,5 +6,5 @@ arrests <- USArrests
 rownames(clean_data) <- as.vector(clean_data[,"stateName"])
 
 #merging a merged dataframe with attributes from both dataframes
-mergeDataframe <- merge(clean_data, arrests, by = rownames("stateName") )
+mergeDataframe <- merge(clean_data, arrests, by = "row.names")
 mergeDataframe
