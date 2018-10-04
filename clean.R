@@ -13,5 +13,5 @@ colnames(states)[c(1,2,3,4)] <- c("stateName", "population", "popOver18", "perce
 
 }
 
-cleanCensus <- clean_data(raw_data)
-str(cleanCensus)
+clean_data <- clean_data(raw_data)
+str(clean_data)
