@@ -49,10 +49,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "jganatra07",
             "desc": "",
-            "name": "mergingDataframe.R"
+            "name": "mergingDataframe.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:57:29",
+    "updated_at": "2018-10-04 15:58:49",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
