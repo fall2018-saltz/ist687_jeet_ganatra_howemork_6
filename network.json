@@ -37,7 +37,7 @@
         {
             "ports": [
                 {
-                    "output": "mergingDataframe",
+                    "output": "mergeDataframe",
                     "type": "csv"
                 }
             ],
@@ -68,6 +68,6 @@
             "name": "mergingDataframe.csv"
         }
     ],
-    "updated_at": "2018-10-04 16:14:06",
+    "updated_at": "2018-10-04 16:15:07",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
