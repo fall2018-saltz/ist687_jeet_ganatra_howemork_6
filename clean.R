@@ -1,5 +1,5 @@
 
-f1 <- function(states){
+clean_data <- function(states){
 # removes the first row and the last row, with state = USA and state = Puerto rico commonwealth
 # and the first four columns SUMLEV REGION DIVISION STATE
 dfStates <- dfStates[,-c(1:4)]
