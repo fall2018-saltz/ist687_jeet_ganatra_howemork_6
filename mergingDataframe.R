@@ -3,3 +3,4 @@
 arrests <- USArrests
 
 #merging a merged dataframe with attributes from both dataframes
+mergeDataframe <- merge(clean_data, arrests, by = )
