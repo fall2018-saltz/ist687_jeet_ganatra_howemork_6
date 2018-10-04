@@ -9,11 +9,9 @@ dfStates <- read.csv("scprc_est_2017_18_pop_res.csv")
 dfStates <- dfStates[,c(-1,-2,-3,-4)]
 dfStates <- dfStates[c(-1,-53),]
 
-#Using colnames() to replace the names of the columns in the dataframe.colnames(dfStates)[c(1,2,3,4)] <- c("stateName", "population", "popOver18", "percentOver18")
-
- 
-
-  #returns the clean dataframe
+#Using colnames() to replace the names of the columns in the dataframe.
+colnames(dfStates)[c(1,2,3,4)] <- c("stateName", "population", "popOver18", "percentOver18")
+#returns the clean dataframe
 
   return(dfStates)
 
