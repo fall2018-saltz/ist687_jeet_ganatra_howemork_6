@@ -42,7 +42,7 @@
                 }
             ],
             "source": "mergingDataframe.R",
-            "target": "mergingDataframe.csv"
+            "target": "mergeDataframe.csv"
         }
     ],
     "nodes": [
@@ -65,9 +65,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "mergingDataframe.csv"
+            "name": "mergeDataframe.csv"
         }
     ],
-    "updated_at": "2018-10-04 16:15:07",
+    "updated_at": "2018-10-04 16:15:17",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
