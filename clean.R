@@ -1,5 +1,5 @@
 
-clean_data <- raw_data
+clean_data <- as.data.frame("raw_data")
 
 clean_data <- function(){
 # reads the csv file with raw data
