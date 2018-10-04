@@ -43,6 +43,16 @@
             ],
             "source": "mergingDataframe.R",
             "target": "mergeDataframe.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDataframe",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeDataframe.csv",
+            "target": "genHistogram.R"
         }
     ],
     "nodes": [
@@ -72,6 +82,6 @@
             "name": "genHistogram.R"
         }
     ],
-    "updated_at": "2018-10-04 16:17:25",
+    "updated_at": "2018-10-04 16:17:56",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
