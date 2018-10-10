@@ -187,7 +187,7 @@
         {
             "ports": [
                 {
-                    "output": "myPopPlot2",
+                    "output": "myPlotPop2",
                     "type": "png"
                 }
             ],
@@ -275,6 +275,6 @@
             "name": "assault_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 18:07:06",
+    "updated_at": "2018-10-10 18:07:37",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
