@@ -53,6 +53,16 @@
             ],
             "source": "mergeDataframe.csv",
             "target": "genHistogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop",
+                    "type": "png"
+                }
+            ],
+            "source": "genHistogram.R",
+            "target": "population_histogram.png"
         }
     ],
     "nodes": [
@@ -87,6 +97,6 @@
             "name": "population_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 03:01:36",
+    "updated_at": "2018-10-10 03:02:16",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
