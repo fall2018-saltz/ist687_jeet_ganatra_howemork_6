@@ -73,6 +73,16 @@
             ],
             "source": "genHistogram.R",
             "target": "murderRate_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDataframe",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeDataframe.csv",
+            "target": "genBoxplot.R"
         }
     ],
     "nodes": [
@@ -114,6 +124,6 @@
             "name": "genBoxplot.R"
         }
     ],
-    "updated_at": "2018-10-10 03:43:56",
+    "updated_at": "2018-10-10 03:44:19",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
