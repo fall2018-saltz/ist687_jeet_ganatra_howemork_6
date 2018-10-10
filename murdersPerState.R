@@ -21,6 +21,7 @@ barChart2 <- barChart2 + ggtitle("Total Murders")
 barChart2 <- barChart2 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
 barChart2
 
+#generating a barchart of sorted murder rate using ggplot() and aes() to visualize the graph
 barChart3 <- ggplot(mergeDataframe, aes(x = reorder(stateName, numMurders), y = numMurders, group = 1))
 barChart3 <- barChart3 + geom_col()
 barChart3 <- barChart3 + ggtitle("Sorted bar chart of murders per state")
