@@ -120,10 +120,15 @@
             "name": "murderRate_histogram.png"
         },
         {
+            "assigned_to": "jganatra07",
             "desc": "",
-            "name": "genBoxplot.R"
+            "name": "genBoxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "population_boxplot.png"
         }
     ],
-    "updated_at": "2018-10-10 03:44:19",
+    "updated_at": "2018-10-10 03:47:22",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
