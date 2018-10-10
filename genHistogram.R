@@ -19,3 +19,9 @@ myPlotPop3 <- ggplot(mergeDataframe, aes(x=Rape))
 myPlotPop3 <- myPlotPop3 + geom_histogram(binwidth=1)
 myPlotPop3 <- myPlotPop3 + ggtitle("Histogram of Rape")
 myPlotPop3
+
+
+myPlotPop4 <- ggplot(mergeDataframe, aes(x=UrbanPop))
+myPlotPop4 <- myPlotPop4 + geom_histogram(binwidth=1)
+myPlotPop4 <- myPlotPop4 + ggtitle("Histogram of UrbanPop")
+myPlotPop4
