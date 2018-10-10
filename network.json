@@ -193,6 +193,16 @@
             ],
             "source": "genHistogram.R",
             "target": "assault_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop3",
+                    "type": "png"
+                }
+            ],
+            "source": "genHistogram.R",
+            "target": "rape_histogram.png"
         }
     ],
     "nodes": [
@@ -278,6 +288,6 @@
             "name": "rape_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 18:07:55",
+    "updated_at": "2018-10-10 18:08:07",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
