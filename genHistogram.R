@@ -2,16 +2,16 @@
 #importing library for ggplot2
 library("ggplot2")
 #using ggplot() to generate a histogram with population on the x-axis from the mergeDataframe
-#dataset. We are using geom_histogram() function with binwidth attribute to group the data into bins. Here, we are using 
-#500,000 as binwidth because the population is in millions.
+#dataset. We are using geom_histogram() function with binwidth attribute to group the data 
+#into bins. Here, we are using 500,000 as binwidth because the population is in millions.
 myPlotPop <- ggplot(mergeDataframe, aes(x=population))
 myPlotPop <- myPlotPop + geom_histogram(binwidth = 500000)
 myPlotPop <- myPlotPop + ggtitle("Histogram of Population")
 myPlotPop
 
 #using ggplot() to generate a histogram with murder on the x-axis from the mergeDataframe
-#dataset. We are using binwidth attribute to group the data into bins. Here, we are using 
-#1 as binwidth because the murder rate does not have large numbers.
+#dataset. We are using geom_histogram() function with binwidth attribute to group the data into bins. Here, we are using 
+1 as binwidth because the murder rate does not have large numbers.
 myPlotPop1 <- ggplot(mergeDataframe, aes(x=Murder))
 myPlotPop1 <- myPlotPop1 + geom_histogram(binwidth=1)
 myPlotPop1 <- myPlotPop1 + ggtitle("Histogram of Murder")
