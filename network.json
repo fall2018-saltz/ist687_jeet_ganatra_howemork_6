@@ -83,6 +83,16 @@
             ],
             "source": "mergeDataframe.csv",
             "target": "genBoxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop2",
+                    "type": "png"
+                }
+            ],
+            "source": "genBoxplot.R",
+            "target": "population_boxplot.png"
         }
     ],
     "nodes": [
@@ -129,6 +139,6 @@
             "name": "population_boxplot.png"
         }
     ],
-    "updated_at": "2018-10-10 03:47:22",
+    "updated_at": "2018-10-10 03:48:04",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
