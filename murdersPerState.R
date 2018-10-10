@@ -7,12 +7,14 @@ mergeDataframe$numMurders <- as.integer(mergeDataframe$population*mergeDataframe
 murdersPerState <- mergeDataframe[,c(2,3,4,10)]
 murdersPerState
 
-#generating a barchart for number of murders per state using ggplot() and aes() to visualize the graph
+#generating a barchart for number of murders per state using ggplot() and aes() to 
+#visualize the graph
 barChart1 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
 barChart1 <- barChart1 + geom_col()
 barChart1 <- barChart1 + ggtitle("Bar chart of murders per state")
 barChart1
 
+#generating a barchart to rotate text on x-axis using theme() and aes() to visualize the graph
 barChart2 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
 barChart2 <- barChart2 + geom_col()
 barChart2 <- barChart2 + ggtitle("Total Murders")
