@@ -40,3 +40,4 @@ myPlotPop4
 
 #to generate histograms so that they all look the same, we have to adjust the binwidth
 #attribute in the geom_histogram() function because different variables on x-axis will have 
+#different amount of data. So, we have to graoup the data into bins accordingly.
