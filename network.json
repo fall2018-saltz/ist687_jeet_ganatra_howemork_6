@@ -286,8 +286,11 @@
         },
         {
             "name": "rape_histogram.png"
+        },
+        {
+            "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 18:08:07",
+    "updated_at": "2018-10-10 18:21:08",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
