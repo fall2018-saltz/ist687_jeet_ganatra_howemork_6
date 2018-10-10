@@ -166,8 +166,11 @@
             "desc": "",
             "name": "mudersPerState.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "murdersPerState.csv"
         }
     ],
-    "updated_at": "2018-10-10 03:56:25",
+    "updated_at": "2018-10-10 04:08:48",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
