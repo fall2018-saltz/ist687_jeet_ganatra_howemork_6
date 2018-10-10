@@ -218,8 +218,11 @@
         },
         {
             "name": "sorted_murders_per_state.png"
+        },
+        {
+            "name": "percentOver18_as_color.png"
         }
     ],
-    "updated_at": "2018-10-10 16:51:57",
+    "updated_at": "2018-10-10 16:59:46",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
