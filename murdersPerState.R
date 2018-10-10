@@ -27,6 +27,7 @@ barChart3 <- barChart3 + geom_col()
 barChart3 <- barChart3 + ggtitle("Sorted bar chart of murders per state")
 barChart3
 
+#generating a barchart to show percentOver18 as color of the bar using ggplot() and aes() to visualize the graph
 barChart4 <- ggplot(mergeDataframe, aes(x = reorder(stateName, numMurders), y = numMurders, group = 1))
 barChart4 <- barChart4 + geom_col(aes(size=percentOver18,color=percentOver18))
 barChart4 <- barChart4 + ggtitle("Sorted bar chart showing percentOver18 as color of bar")
