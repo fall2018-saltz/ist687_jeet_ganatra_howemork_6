@@ -11,7 +11,7 @@ myPlotPop1 <- myPlotPop1 + ggtitle("Histogram of Murder")
 myPlotPop1
 
 myPlotPop2 <- ggplot(mergeDataframe, aes(x=Assault))
-myPlotPop2 <- myPlotPop2 + geom_histogram(binwidth=1)
+myPlotPop2 <- myPlotPop2 + geom_histogram(binwidth=10)
 myPlotPop2 <- myPlotPop2 + ggtitle("Histogram of Assault")
 myPlotPop2
 
