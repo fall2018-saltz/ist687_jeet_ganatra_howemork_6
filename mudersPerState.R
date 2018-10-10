@@ -6,3 +6,8 @@ barChart1 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
 barChart1 <- barChart1 + geom_col()
 barChart1 <- barChart1 + ggtitle("Bar chart of murders per state")
 barChart1
+
+barChart2 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
+barChart2 <- barChart2 + geom_col()
+barChart2 <- barChart2 + ggtitle("Bar chart of murders per state")
+barChart2
