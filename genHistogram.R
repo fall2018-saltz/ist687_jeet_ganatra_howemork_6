@@ -37,3 +37,5 @@ myPlotPop4 <- ggplot(mergeDataframe, aes(x=UrbanPop))
 myPlotPop4 <- myPlotPop4 + geom_histogram(binwidth=2)
 myPlotPop4 <- myPlotPop4 + ggtitle("Histogram of UrbanPop")
 myPlotPop4
+
+#to generate histograms so that they all look the same, we have to adjust the binwidth 
