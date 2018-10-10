@@ -112,7 +112,7 @@
                 }
             ],
             "source": "mergeDataframe.csv",
-            "target": "mudersPerState.R"
+            "target": "murdersPerState.R"
         },
         {
             "ports": [
@@ -121,7 +121,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mudersPerState.R",
+            "source": "murdersPerState.R",
             "target": "murdersPerState_barchart.png"
         },
         {
@@ -131,7 +131,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mudersPerState.R",
+            "source": "murdersPerState.R",
             "target": "total_murders.png"
         },
         {
@@ -141,7 +141,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mudersPerState.R",
+            "source": "murdersPerState.R",
             "target": "sorted_murders_per_state.png"
         },
         {
@@ -151,7 +151,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mudersPerState.R",
+            "source": "murdersPerState.R",
             "target": "percentOver18_as_color.png"
         },
         {
@@ -161,7 +161,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "mudersPerState.R",
+            "source": "murdersPerState.R",
             "target": "MurdersPerState.csv"
         }
     ],
@@ -212,12 +212,6 @@
             "name": "murderRate_boxplot.png"
         },
         {
-            "assigned_to": "jganatra07",
-            "desc": "",
-            "name": "mudersPerState.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "murdersPerState_barchart.png"
         },
         {
@@ -231,8 +225,14 @@
         },
         {
             "name": "MurdersPerState.csv"
+        },
+        {
+            "assigned_to": "jganatra07",
+            "desc": "",
+            "name": "murdersPerState.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 17:35:39",
+    "updated_at": "2018-10-10 17:42:20",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
