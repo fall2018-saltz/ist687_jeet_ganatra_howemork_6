@@ -183,6 +183,36 @@
             ],
             "source": "genScatterPlot.R",
             "target": "scatterplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop2",
+                    "type": "png"
+                }
+            ],
+            "source": "genHistogram.R",
+            "target": "assault_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop3",
+                    "type": "png"
+                }
+            ],
+            "source": "genHistogram.R",
+            "target": "rape_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPlotPop4",
+                    "type": "png"
+                }
+            ],
+            "source": "genHistogram.R",
+            "target": "urbanpop_histogram.png"
         }
     ],
     "nodes": [
@@ -260,8 +290,17 @@
         },
         {
             "name": "scatterplot.png"
+        },
+        {
+            "name": "assault_histogram.png"
+        },
+        {
+            "name": "rape_histogram.png"
+        },
+        {
+            "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 17:53:31",
+    "updated_at": "2018-10-10 18:23:53",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
