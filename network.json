@@ -95,8 +95,11 @@
         },
         {
             "name": "population_histogram.png"
+        },
+        {
+            "name": "murderRate_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 03:02:16",
+    "updated_at": "2018-10-10 03:34:03",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
