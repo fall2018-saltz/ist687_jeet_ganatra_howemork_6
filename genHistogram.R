@@ -38,4 +38,5 @@ myPlotPop4 <- myPlotPop4 + geom_histogram(binwidth=2)
 myPlotPop4 <- myPlotPop4 + ggtitle("Histogram of UrbanPop")
 myPlotPop4
 
-#to generate histograms so that they all look the same, we have to adjust the binwidth 
+#to generate histograms so that they all look the same, we have to adjust the binwidth
+#attribute in the geom_histogram() function because different variables on x-axis will have 
