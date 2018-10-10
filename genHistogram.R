@@ -2,6 +2,7 @@
 #importing library for ggplot2
 library("ggplot2")
 #using ggplot() to generate a histogram with population on the x-axis from the mergeDataframe
+#dataset
 myPlotPop <- ggplot(mergeDataframe, aes(x=population))
 myPlotPop <- myPlotPop + geom_histogram(binwidth = 500000)
 myPlotPop <- myPlotPop + ggtitle("Histogram of Population")
