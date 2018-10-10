@@ -207,7 +207,7 @@
         {
             "ports": [
                 {
-                    "output": "myPlotPop5",
+                    "output": "myPlotPop4",
                     "type": "png"
                 }
             ],
@@ -301,6 +301,6 @@
             "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 18:21:23",
+    "updated_at": "2018-10-10 18:23:53",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
