@@ -192,8 +192,11 @@
         },
         {
             "name": "murdersPerState_barchart.png"
+        },
+        {
+            "name": "total_murders.png"
         }
     ],
-    "updated_at": "2018-10-10 04:46:59",
+    "updated_at": "2018-10-10 04:48:50",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
