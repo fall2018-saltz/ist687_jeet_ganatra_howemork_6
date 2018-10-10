@@ -1,4 +1,5 @@
 
+#importing ggplot2 library to generate boxplots
 library("ggplot2")
 myPlotPop2 <- ggplot(mergeDataframe, aes(x=factor(0),y=population))
 myPlotPop2 <- myPlotPop2 + geom_boxplot()
