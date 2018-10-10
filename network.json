@@ -162,7 +162,7 @@
                 }
             ],
             "source": "murdersPerState.R",
-            "target": "MurdersPerState.csv"
+            "target": "murdersPerState.csv"
         }
     ],
     "nodes": [
@@ -224,7 +224,7 @@
             "name": "percentOver18_as_color.png"
         },
         {
-            "name": "MurdersPerState.csv"
+            "name": "murdersPerState.csv"
         },
         {
             "assigned_to": "jganatra07",
@@ -233,6 +233,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 17:42:20",
+    "updated_at": "2018-10-10 17:47:47",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
