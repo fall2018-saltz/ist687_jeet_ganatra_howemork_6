@@ -22,6 +22,6 @@ myPlotPop3
 
 
 myPlotPop4 <- ggplot(mergeDataframe, aes(x=UrbanPop))
-myPlotPop4 <- myPlotPop4 + geom_histogram(binwidth=1)
+myPlotPop4 <- myPlotPop4 + geom_histogram(binwidth=0.5)
 myPlotPop4 <- myPlotPop4 + ggtitle("Histogram of UrbanPop")
 myPlotPop4
