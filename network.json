@@ -113,6 +113,16 @@
             ],
             "source": "mergeDataframe.csv",
             "target": "mudersPerState.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdersPerState",
+                    "type": "csv"
+                }
+            ],
+            "source": "mudersPerState.R",
+            "target": "murdersPerState.csv"
         }
     ],
     "nodes": [
@@ -171,6 +181,6 @@
             "name": "murdersPerState.csv"
         }
     ],
-    "updated_at": "2018-10-10 04:08:48",
+    "updated_at": "2018-10-10 04:09:05",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
