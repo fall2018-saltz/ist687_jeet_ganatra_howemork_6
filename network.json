@@ -231,8 +231,12 @@
             "desc": "",
             "name": "murdersPerState.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "genScatterPlot.R"
         }
     ],
-    "updated_at": "2018-10-10 17:47:47",
+    "updated_at": "2018-10-10 17:50:14",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
