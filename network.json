@@ -243,10 +243,12 @@
             "name": "percentOver18_as_color.png"
         },
         {
+            "assigned_to": "jganatra07",
             "desc": "",
-            "name": "genScatterPlot.R"
+            "name": "genScatterPlot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 17:02:08",
+    "updated_at": "2018-10-10 17:09:29",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
