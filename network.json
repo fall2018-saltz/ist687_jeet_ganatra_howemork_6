@@ -157,16 +157,6 @@
         {
             "ports": [
                 {
-                    "input": "mergeDataframe",
-                    "type": "csv"
-                }
-            ],
-            "source": "mergeDataframe.csv",
-            "target": "genScatterPlot.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "murdersPerState",
                     "type": "csv"
                 }
@@ -240,15 +230,9 @@
             "name": "percentOver18_as_color.png"
         },
         {
-            "assigned_to": "jganatra07",
-            "desc": "",
-            "name": "genScatterPlot.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "MurdersPerState.csv"
         }
     ],
-    "updated_at": "2018-10-10 17:34:47",
+    "updated_at": "2018-10-10 17:35:39",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
