@@ -1,7 +1,7 @@
 
 library("ggplot2")
 mergeDataframe$numMurders <- as.integer(mergeDataframe$population*mergeDataframe$Murder/100000)
-murdersPerState <- mergeDataframe[,c(2,3,4,10)]
+MurdersPerState <- mergeDataframe[,c(2,3,4,10)]
 MurdersPerState
 
 barChart1 <- ggplot(mergeDataframe, aes(x=stateName, y=numMurders))
