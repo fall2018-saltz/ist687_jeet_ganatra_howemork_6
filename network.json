@@ -123,6 +123,16 @@
             ],
             "source": "mudersPerState.R",
             "target": "murdersPerState.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart1",
+                    "type": "png"
+                }
+            ],
+            "source": "mudersPerState.R",
+            "target": "murdersPerState_barchart.png"
         }
     ],
     "nodes": [
@@ -184,6 +194,6 @@
             "name": "murdersPerState_barchart.png"
         }
     ],
-    "updated_at": "2018-10-10 04:46:43",
+    "updated_at": "2018-10-10 04:46:59",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
