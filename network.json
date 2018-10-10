@@ -150,8 +150,12 @@
         },
         {
             "name": "murderRate_boxplot.png"
+        },
+        {
+            "desc": "",
+            "name": "mudersPerState.R"
         }
     ],
-    "updated_at": "2018-10-10 03:48:38",
+    "updated_at": "2018-10-10 03:53:40",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
