@@ -78,10 +78,15 @@
             "name": "mergeDataframe.csv"
         },
         {
+            "assigned_to": "jganatra07",
             "desc": "",
-            "name": "genHistogram.R"
+            "name": "genHistogram.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "population_histogram.png"
         }
     ],
-    "updated_at": "2018-10-04 16:17:56",
+    "updated_at": "2018-10-10 03:01:36",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
