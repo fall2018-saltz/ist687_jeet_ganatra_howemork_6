@@ -1,4 +1,5 @@
 
+#importing library for ggplot2
 library("ggplot2")
 myPlotPop <- ggplot(mergeDataframe, aes(x=population))
 myPlotPop <- myPlotPop + geom_histogram(binwidth = 500000)
