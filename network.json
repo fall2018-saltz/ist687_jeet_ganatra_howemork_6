@@ -167,16 +167,6 @@
         {
             "ports": [
                 {
-                    "input": "murdersPerState",
-                    "type": "csv"
-                }
-            ],
-            "source": "murdersPerState.csv",
-            "target": "genScatterPlot.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "scatterplot",
                     "type": "png"
                 }
@@ -213,6 +203,16 @@
             ],
             "source": "genHistogram.R",
             "target": "urbanpop_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDataframe",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeDataframe.csv",
+            "target": "genScatterPlot.R"
         }
     ],
     "nodes": [
@@ -301,6 +301,6 @@
             "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 18:23:53",
+    "updated_at": "2018-10-10 19:47:08",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
