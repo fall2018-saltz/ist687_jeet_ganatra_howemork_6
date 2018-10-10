@@ -1,4 +1,5 @@
 
+library("ggplot2")
 myPlotPop2 <- ggplot(mergeDataframe, aes(x=factor(0),y=population))
 myPlotPop2 <- myPlotPop2 + geom_boxplot()
 myPlotPop2 <- myPlotPop2 + ggtitle("Histogram of Population")
