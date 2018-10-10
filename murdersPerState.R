@@ -1,6 +1,7 @@
 
 #importing library for ggplot2 to generate barcharts
 library("ggplot2")
+#calculating the number of murders per state and then displaying the new subset of mergeDataframe
 mergeDataframe$numMurders <- as.integer(mergeDataframe$population*mergeDataframe$Murder/100000)
 murdersPerState <- mergeDataframe[,c(2,3,4,10)]
 murdersPerState
