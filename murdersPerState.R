@@ -1,4 +1,5 @@
 
+#importing library for ggplot2 to generate barcharts
 library("ggplot2")
 mergeDataframe$numMurders <- as.integer(mergeDataframe$population*mergeDataframe$Murder/100000)
 murdersPerState <- mergeDataframe[,c(2,3,4,10)]
