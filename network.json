@@ -183,6 +183,16 @@
             ],
             "source": "genScatterPlot.R",
             "target": "scatterplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myPopPlot2",
+                    "type": "png"
+                }
+            ],
+            "source": "genHistogram.R",
+            "target": "assault_histogram.png"
         }
     ],
     "nodes": [
@@ -265,6 +275,6 @@
             "name": "assault_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 18:06:53",
+    "updated_at": "2018-10-10 18:07:06",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
