@@ -112,17 +112,7 @@
                 }
             ],
             "source": "mergeDataframe.csv",
-            "target": "mudersPerState.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "murdersPerState",
-                    "type": "csv"
-                }
-            ],
-            "source": "mudersPerState.R",
-            "target": "murdersPerState.csv"
+            "target": "murdersPerState.R"
         },
         {
             "ports": [
@@ -131,7 +121,7 @@
                     "type": "png"
                 }
             ],
-            "source": "mudersPerState.R",
+            "source": "murdersPerState.R",
             "target": "murdersPerState_barchart.png"
         },
         {
@@ -141,8 +131,58 @@
                     "type": "png"
                 }
             ],
-            "source": "mudersPerState.R",
+            "source": "murdersPerState.R",
             "target": "total_murders.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart3",
+                    "type": "png"
+                }
+            ],
+            "source": "murdersPerState.R",
+            "target": "sorted_murders_per_state.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart4",
+                    "type": "png"
+                }
+            ],
+            "source": "murdersPerState.R",
+            "target": "percentOver18_as_color.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdersPerState",
+                    "type": "csv"
+                }
+            ],
+            "source": "murdersPerState.R",
+            "target": "murdersPerState.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "murdersPerState",
+                    "type": "csv"
+                }
+            ],
+            "source": "murdersPerState.csv",
+            "target": "genScatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterplot",
+                    "type": "png"
+                }
+            ],
+            "source": "genScatterPlot.R",
+            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -192,21 +232,36 @@
             "name": "murderRate_boxplot.png"
         },
         {
-            "assigned_to": "jganatra07",
-            "desc": "",
-            "name": "mudersPerState.R",
-            "task_status": "in progress"
+            "name": "murdersPerState_barchart.png"
+        },
+        {
+            "name": "total_murders.png"
+        },
+        {
+            "name": "sorted_murders_per_state.png"
+        },
+        {
+            "name": "percentOver18_as_color.png"
         },
         {
             "name": "murdersPerState.csv"
         },
         {
-            "name": "murdersPerState_barchart.png"
+            "assigned_to": "jganatra07",
+            "desc": "",
+            "name": "murdersPerState.R",
+            "task_status": "in progress"
         },
         {
-            "name": "total_murders.png"
+            "assigned_to": "jganatra07",
+            "desc": "",
+            "name": "genScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-10 04:56:42",
+    "updated_at": "2018-10-10 17:53:31",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
