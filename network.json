@@ -163,6 +163,16 @@
             ],
             "source": "murdersPerState.R",
             "target": "murdersPerState.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "murdersPerState",
+                    "type": "csv"
+                }
+            ],
+            "source": "murdersPerState.csv",
+            "target": "genScatterPlot.R"
         }
     ],
     "nodes": [
@@ -237,6 +247,6 @@
             "name": "genScatterPlot.R"
         }
     ],
-    "updated_at": "2018-10-10 17:50:14",
+    "updated_at": "2018-10-10 17:50:31",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
