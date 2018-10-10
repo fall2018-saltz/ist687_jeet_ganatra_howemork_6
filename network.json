@@ -273,8 +273,11 @@
         },
         {
             "name": "assault_histogram.png"
+        },
+        {
+            "name": "rape_histogram.png"
         }
     ],
-    "updated_at": "2018-10-10 18:07:37",
+    "updated_at": "2018-10-10 18:07:55",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
