@@ -103,6 +103,16 @@
             ],
             "source": "genBoxplot.R",
             "target": "murderRate_boxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDataframe",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeDataframe.csv",
+            "target": "mudersPerState.R"
         }
     ],
     "nodes": [
@@ -152,10 +162,12 @@
             "name": "murderRate_boxplot.png"
         },
         {
+            "assigned_to": "jganatra07",
             "desc": "",
-            "name": "mudersPerState.R"
+            "name": "mudersPerState.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 03:53:40",
+    "updated_at": "2018-10-10 03:56:25",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_6"
 }
