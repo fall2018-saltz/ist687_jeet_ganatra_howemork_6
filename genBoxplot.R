@@ -15,4 +15,5 @@ myPlotPop3 <- myPlotPop3 + geom_boxplot()
 myPlotPop3 <- myPlotPop3 + ggtitle("Boxplot of Murder")
 myPlotPop3
 
-#Boxplots are more useful because they give you the 5 number summary ie min max median upper fence and lower fence whereas histograms only give you the frequency
+#Boxplots are more useful because they give you the 5 number summary ie min max median upper 
+#fence and lower fence whereas histograms only give you the frequency.
