@@ -6,7 +6,7 @@ cleandata2 <- USArrests
 stateName <- as.vector(rownames(USArrests))
 stateName <- tolower(stateName)
 # add this column to the dataframe as a column names stateName
-cleandata2 <- cbind(cleandata2,stateName, stringsAsFactors=FALSE)
+cleandata2 <- cbind(cleandata2,stateName,)
 
 # merge the dataframes based on the stateName column in both the dataframes
 # the merge function combines dataframes based on common columns
